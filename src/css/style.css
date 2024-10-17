@@ -1,0 +1,60 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--pimray-background-color);
+}
+
+.card-container {
+    margin: var(--sizing-small);
+    padding: var(--sizing-medium);
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--sizing-medium);
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: var(--secondary-background-color);
+    color: var(--secondary-color);
+    font-family: var(--light-font-family);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--sizing-small);
+}
+
+.card img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position:center;
+    border-radius: 5% 5% 0 0;
+}
+
+.card > p{
+    padding: var(--sizing-x-small);
+}
+
+.card-title {
+    text-align: center;
+    padding: var(--sizing-small);
+}
+
+.card-title-long {
+    text-align: center;
+}
+
+.card:hover {
+    list-style: none;
+    cursor: pointer;    
+}
+
+
+
+
