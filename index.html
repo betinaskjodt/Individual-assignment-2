@@ -14,27 +14,25 @@
 <body>
     <header>
         <div class="header__logo-searchbar">
-            <div class="header__logo">
+            <div class="header__hna-logo">
                 <a href="#"><img class="header__logo" src="./src/assets/images/logonhf.png" alt="hna logo"></a>
             </div>
-
-            <form action="" class="header__searchbar-container">
-                <label for="main-searchbar"></label>
-                <input class="header__searchbar" type="search" id="main-searchbar" name="main-searchbar" placeholder="search for news, articles, tournaments, clubs and teams">
-
-                <span class="header__search-icon">
-                    <img src="./src/assets/icons/search_icon.svg" alt="search icon">
-                </span>
-            </form>
-
-            
-
-            <nav>
+                
+            <nav class="header__navbar-small-screen">
                 <div class="header_menu-icon-small-sreen">
                     <img src="./src/assets/icons/menu_icon.svg" alt="menu icon">
                     <ul></ul>
                 </div>
             </nav>
+            
+            <form action="" class="header__searchbar-container">
+                <button class="header__search-icon">
+                     <img src="./src/assets/icons/search_icon.svg" alt="search icon">
+                </button>
+
+                <label for="main-searchbar"></label>
+                <input class="header__searchbar" type="search" id="main-searchbar" name="main-searchbar" placeholder="search">
+            </form>
         </div>
         
 
