@@ -88,6 +88,41 @@ h1 {
         display: block;
 }
 
+    .navlist-small-screen {
+        list-style: none;
+}
+
+    .navlist-small-screen li:hover {
+        border-bottom: 1px solid red;
+}
+
+    .header__searchbar-list {
+        background-color: var(--pimray-background-color);
+        all: unset
+}
+
+    .header__searchbar-list input::placeholder {
+        font-family: var(--light-font-family);
+        font-size: 1rem;
+        color: var(--third-color);
+
+}
+    
+    .header_menu-icon-small-sreen {
+        position: relative;
+        display: inline-block;
+}
+
+    .header_menu-icon-small-sreen:hover {
+        background-color: #659dc2;
+        padding: 0 0.2rem;
+    }
+
+    li {
+        display: none;
+    }
+      
+
     .header__searchbar-container {
         display: none;
 }
