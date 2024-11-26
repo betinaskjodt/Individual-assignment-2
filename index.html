@@ -1,278 +1,400 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/variables.css">
-    <link rel="stylesheet" href="./src/css/header.css">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="./src/css/footer.css">
-    <link rel="stylesheet" href="./src/css/final-standing.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/header.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/footer.css" />
+    <link rel="stylesheet" href="./src/css/final-standing.css" />
     <title>Individual Assignment 2</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <header>
-        <div class="header__logo-searchbar">
-            <figure class="header__hna-logo">
-                <a href="#"><img class="header__logo" src="./src/assets/images/logonhf.png" alt="hna logo"></a>
-            </figure>
-                
-            <nav class="header__navbar-small-screen">
-                <div class="header_menu-icon-small-sreen">
-                    <figure class="menu-icon-small-screen">
-                        <img src="./src/assets/icons/menu_icon.svg" alt="menu icon">    
-                    </figure>
-                    
-                    <ul class="navlist-small-screen">
-                        <li><input class="header__searchbar-list" type="search" id="searchbar-list" name="searchbar-list" placeholder="search"></li>
-                        <li><a href="#"></a>Regions</li>
-                        <li><a href="#"></a>Aboute Us</li>
-                        <li><a href="#"></a>Combat</li>
-                        <li><a href="#"></a>Development</li>
-                        <li><a href="#"></a>Practical Information</li>
-                        <li><a href="#"></a>Tickets</li>
-                    </ul>
-                </div>
-            </nav>
-            
-            <form action="" class="header__searchbar-container">
-                <button class="header__search-icon">
-                     <img src="./src/assets/icons/search_icon.svg" alt="search icon">
-                </button>
+      <nav class="navbar">
+        <div class="navbar__icon-search-wraper">
+          <figure class="navbar__logo-container">
+            <a href="#">
+              <img
+                class="navbar__logo"
+                src="./src/assets/images/logonhf.png"
+                alt="hna logo"
+              />
+            </a>
+          </figure>
 
-                <label for="main-searchbar"></label>
-                <input class="header__searchbar" type="search" id="main-searchbar" name="main-searchbar" placeholder="search">
-            </form>
+          <form class="navbar__search-container">
+            <button class="navbar__search-icon-btn">
+              <img
+                src="./src/assets/icons/search_icon_28px.svg"
+                alt="search icon"
+                class="navbar__search-icon"
+              />
+            </button>
+            <input
+              class="navbar__searchbar"
+              type="search"
+              id="searchbar--desktop-screen"
+              name="searchbar"
+              placeholder="search"
+            />
+          </form>
+
+          <div class="navbar__menu-container">
+            <button class="navbar__menu-btn">
+              <img
+                class="navbar-menu-icon"
+                src="./src/assets/icons/menu_icon.svg"
+                alt="menu icon"
+              />
+            </button>
+          </div>
         </div>
-        
 
-        <h1>Norwegian Handball Association</h1>
+        <div class="navbar__title-container">
+          <h1 class="navbar__title">Norwegian Handball Association</h1>
+        </div>
 
-        <nav>
-            <ul class="header__nav-list">
-                <li class="header__nav-items"><a href="#">Regions</a></li>
-                <li class="header__nav-items"><a href="#">Aboute Us</a></li>
-                <li class="header__nav-items"><a href="#">Combat Activities</a></li>
-                <li class="header__nav-items"><a href="#">Development</a></li>
-                <li class="header__nav-items"><a href="#">Practical Information</a></li>
-                <li class="header__nav-items"><a href="#">Tickets</a></li>
-            </ul>
-        </nav>
-
-       
+        <div class="navbar__links-container">
+          <ul class="navbar__list">
+            <li class="navbar__litst-item">
+              <input
+                class="navbar__list-searchbar"
+                type="search"
+                name="search"
+                id="searchbar--mobile-screen"
+              />
+            </li>
+            <li class="navbar__litst-item">
+              <a class="navbar__list-link" href="#">Regions</a>
+            </li>
+            <li class="navbar__litst-item">
+              <a class="navbar__list-link" href="#">Aboute Us</a>
+            </li>
+            <li class="navbar__litst-item">
+              <a class="navbar__list-link" href="#">Combat Activities</a>
+            </li>
+            <li class="navbar__litst-item">
+              <a class="navbar__list-link" href="#">Development</a>
+            </li>
+            <li class="navbar__litst-item">
+              <a class="navbar__list-link" href="#">Practical Information</a>
+            </li>
+            <li class="navbar__litst-item">
+              <a class="navbar__list-link" href="#">Tickets</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main>
+      <div class="card">
+        <img
+          class="card__image"
+          src="./src/assets/images/2023-katrine-lunde.jpg"
+          alt="image of Lunde"
+        />
+        <h2 class="card__title">Kathrine Lunde</h2>
+        <p class="card__description">born: 30. mars 1980</p>
+        <p class="card__description">Nationality: Norwegian</p>
+        <p class="card__description">Jersey number: 16</p>
+        <p class="card__description">Position: Goalkeeper</p>
+        <p class="card__description">Club: Vipers Kristiansand</p>
+      </div>
 
-        <section class="card-container">
+      <div class="card">
+        <img
+          class="card__image"
+          src="./src/assets/images/2023-silje-solberg-osthassel.jpg"
+          alt="image of Solberg-Osthassel"
+        />
+        <h2 class="card__title-longName">Silje Margaretha Solberg-østhassel</h2>
+        <p class="card__description">Born: 16.06.1990</p>
+        <p class="card__description">Nationality: Norwegian</p>
+        <p class="card__description">Jersey Number: 12</p>
+        <p class="card__description">Position: Goalkreeper</p>
+        <p class="card__description">Club: Vipers Kristiansand</p>
+      </div>
 
-            <div class="card">
-                <img src="./src/assets/images/2023-katrine-lunde.jpg" alt="image of Lunde">
-                <h2 class="card-title">Kathrine Lunde</h2>
-                <p>born: 30. mars 1980</p>
-                <p>Nationality: Norwegian</p>
-                <p>Jersey number: 16</p>
-                <p>Position: Goalkeeper</p>
-                <p>Club: Vipers Kristiansand</p>
-            </div>
-    
-            <div class="card">
-                <img src="./src/assets/images/2023-silje-solberg-osthassel.jpg" alt="image of Solberg-Osthassel">
-                <h2 class="card-title-long">Silje Margaretha Solberg-østhassel</h2>
-                <p>Born: 16.06.1990</p>
-                <p>Nationality: Norwegian</p>
-                <p>Jersey Number: 12</p>
-                <p>Position: Goalkreeper</p>
-                <p>Club: Vipers Kristiansand</p>
-            </div>
-    
-            <div class="card">
-                <img src="./src/assets/images/2023-marie-davidsen.jpg" alt="image of Davidsen">
-                <h2 class="card-title">Marie Skurtveit Davidsen</h2>
-                <p>Born: 20.08.1993</p>
-                <p>Nationality: Norwegian</p>
-                <p>Jersey Number: 1</p>
-                <p>Position: Goalkreeper</p>
-                <p>Club: Molde Elite</p>
-            </div>
-    
-            <div class="card">
-                <img src="./src/assets/images/2023-nora-mork.jpg" alt="image of Mork">
-                <h2 class="card-title">Nora Mørk</h2>
-                <p>Born: 05.04.1991</p>
-                <p>Nationality: Norwegian</p>
-                <p>jersey Number: 9</p>
-                <p>position: Defenders</p>
-                <p>Club: Team Esbjerg</p>
-            </div>
-    
-            <div class="card">
-                <img src="./src/assets/images/2023-stine-bredal-oftedal.jpg" alt="image of Dahmke">
-                <h2 class="card-title">Stine Oftedal Dahmke</h2>
-                <p>Born: 25.09.1991</p>
-                <p>Nationality: Norwegian</p>
-                <p>Jersey Number: 10</p>
-                <p>position: defenders</p>
-                <p>Club: Györi Audi ETO KC</p>
-            </div>
-    
-            <div class="card">
-                <img src="./src/assets/images/2024-veronica-kristiansen-lks.jpg" alt="image of Kristiansen">
-                <h2 class="card-title-long">Veronica Egebakken Kristiansen</h2>
-                <p>Born: 10.07.1990</p>
-                <p>Nationality: Norwegian</p>
-                <p>Jersey Number: 4</p>
-                <p>Position: Defenders</p>
-                <p>Club: Györi Audi ETO KC</p>
-            </div>
-    
-            <div class="card">
-                <img src="./src/assets/images/2023-stine-skogrand.jpg" alt="image of Skogrand">
-                <h2 class="card-title">Stine Ruscetta Skogrand</h2>
-                <p>Born: 03.03.1993</p>
-                <p>Nationality: Norwegian</p>
-                <p>Jersey Number: 7</p>
-                <p>Position: Defenders</p>
-                <p>Club:Ikast Håndbold</p>
-            </div>
-    
-            <div class="card">
-                <img src="./src/assets/images/2023-kristine-breistol.jpg" alt="imgage of Breistøl">
-                <h2 class="card-title">Kristine Breistøl</h2>
-                <p>Born: 23.08.1993</p>
-                <p>Nationality: Norwegian</p>
-                <p>Jersey Number: 14</p>
-                <p>Position: Defenders</p>
-                <p>Club: Györi Audi ETO</p>
-            </div>
-    
-            <div class="card">
-                <img src="./src/assets/images/2023-ingvild-bakkerud.jpg" alt="image of Bakkerud">
-                <h2 class="card-title-long">Ingvild Kristiansen Bakkerud</h2>
-                <p>Born: 09.07.1995</p>
-                <p>Nationality: Norwegian</p>
-                <p>Jersey Number: 21</p>
-                <p>Position: Defenders</p>
-                <p>Club: Ikast Håndbold</p>
-            </div>
-    
-            <div class="card">
-                <img src="./src/assets/images/2023-henny-ella-reistad.jpg" alt="image of Reistad">
-                <h2 class="card-title">Henny Ella Reistad</h2>
-                <p>Born: 09.02.1999</p>
-                <p>Nationality: Norwegian</p>
-                <p>Jersey Number: 25</p>
-                <p>Position: Defenders</p>
-                <p>Club: Team Esbjerg</p>
-            </div>
-    
-            <div class="card">
-                <img src="./src/assets/images/2023-thale-rushfeldt-deila.jpg" alt="image of Deila">
-                <h2 class="card-title">Thale Rushfeldt Deila</h2>
-                <p>Born: 15.01.2000</p>
-                <p>Nationality: Norwegian</p>
-                <p>Jersey Number: 33</p>
-                <p>Position: Defenders</p>
-                <p>Club: Odense Håndbold</p>
-            </div>
-    
-            <div class="card">
-                <img src="./src/assets/images/2023-camilla-herrem.jpg" alt="image of Herrem">
-                <h2 class="card-title">Camilla Herrem</h2>
-                <p>Born: 08.10.1986</p>
-                <p>Nationality: Norwegian</p>
-                <p>Jersey Number: 23</p>
-                <p>Position: Defenders</p>
-                <p>Club: Sola HK</p>
-            </div>
-    
-            <div class="card">
-                <img src="./src/assets/images/2023-sanna-solberg-isaksen.jpg" alt="image of Solberg-Isaksen">
-                <h2 class="card-title-long">Sanna Charlotte Solberg-Isaksen</h2>
-                <p>Born: 16.06.1990</p>
-                <p>Nationality: Norwegian</p>
-                <p>Jersey Number: 24</p>
-                <p>Position: Winger</p>
-                <p>Club: Team Esbjerg</p>
-            </div>
-    
-            <div class="card">
-                <img src="./src/assets/images/2023-marit-rosberg-jacobsen.jpg" alt="image of Jacobsen">
-                <h2 class="card-title">Marit Røsberg Jacobsen</h2>
-                <p>Born: 25.02.1994</p>
-                <p>Nationality: Norwegian</p>
-                <p>Jersey Number: 20</p>
-                <p>Position: Winger</p>
-                <p>Club:Team Esbjerg</p>
-            </div>
-    
-            <div class="card">
-                <img src="./src/assets/images/2023-vilde-mortensen-ingstad.jpg" alt="image of Ingstad">
-                <h2 class="card-title">Vilde Mortensen Ingstad</h2>
-                <p>Born: 18.12.1994</p>
-                <p>Nationality: Norwegian</p>
-                <p>Jersey Number: 15</p>
-                <p>Position:Line player</p>
-                <p>Club:CSM Bucuresti</p>
-            </div>
-    
-            <div class="card">
-                <img src="./src/assets/images/2023-kari-brattset-dale.jpg" alt="image of Dale">
-                <h2 class="card-title">Kari Brattset Dale</h2>
-                <p>Born: 15.02.1991</p>
-                <p>Nationality: Norwegian</p>
-                <p>Jersey Number: 13</p>
-                <p>Position: Line player</p>
-                <p>Club:Györi Audi ETO KC</p>
-            </div>
-    
-            <div class="card">
-                <img src="./src/assets/images/2023-maren-aardahl.jpg" alt="image of Aardahl">
-                <h2 class="card-title">Maren Nyland Aardahl</h2>
-                <p>Born: 02.03.1994</p>
-                <p>Nationality: Norwegian</p>
-                <p>Jersey Number: 6</p>
-                <p>Position: Line player</p>
-                <p>Club: Odense Håndbold</p>
-            </div>
-        </section>
+      <div class="card">
+        <img
+          class="card__image"
+          src="./src/assets/images/2023-marie-davidsen.jpg"
+          alt="image of Davidsen"
+        />
+        <h2 class="card__title">Marie Skurtveit Davidsen</h2>
+        <p class="card__description">Born: 20.08.1993</p>
+        <p class="card__description">Nationality: Norwegian</p>
+        <p class="card__description">Jersey Number: 1</p>
+        <p class="card__description">Position: Goalkreeper</p>
+        <p class="card__description">Club: Molde Elite</p>
+      </div>
+
+      <div class="card">
+        <img
+          class="card__image"
+          src="./src/assets/images/2023-nora-mork.jpg"
+          alt="image of Mork"
+        />
+        <h2 class="card__title">Nora Mørk</h2>
+        <p class="card__description">Born: 05.04.1991</p>
+        <p class="card__description">Nationality: Norwegian</p>
+        <p class="card__description">jersey Number: 9</p>
+        <p class="card__description">position: Defenders</p>
+        <p class="card__description">Club: Team Esbjerg</p>
+      </div>
+
+      <div class="card">
+        <img
+          class="card__image"
+          src="./src/assets/images/2023-stine-bredal-oftedal.jpg"
+          alt="image of Dahmke"
+        />
+        <h2 class="card__title">Stine Oftedal Dahmke</h2>
+        <p class="card__description">Born: 25.09.1991</p>
+        <p class="card__description">Nationality: Norwegian</p>
+        <p class="card__description">Jersey Number: 10</p>
+        <p class="card__description">position: defenders</p>
+        <p class="card__description">Club: Györi Audi ETO KC</p>
+      </div>
+
+      <div class="card">
+        <img
+          class="card__image"
+          src="./src/assets/images/2024-veronica-kristiansen-lks.jpg"
+          alt="image of Kristiansen"
+        />
+        <h2 class="card__title-longName">Veronica Egebakken Kristiansen</h2>
+        <p class="card__description">Born: 10.07.1990</p>
+        <p class="card__description">Nationality: Norwegian</p>
+        <p class="card__description">Jersey Number: 4</p>
+        <p class="card__description">Position: Defenders</p>
+        <p class="card__description">Club: Györi Audi ETO KC</p>
+      </div>
+
+      <div class="card">
+        <img
+          class="card__image"
+          src="./src/assets/images/2023-stine-skogrand.jpg"
+          alt="image of Skogrand"
+        />
+        <h2 class="card__title">Stine Ruscetta Skogrand</h2>
+        <p class="card__description">Born: 03.03.1993</p>
+        <p class="card__description">Nationality: Norwegian</p>
+        <p class="card__description">Jersey Number: 7</p>
+        <p class="card__description">Position: Defenders</p>
+        <p class="card__description">Club:Ikast Håndbold</p>
+      </div>
+
+      <div class="card">
+        <img
+          class="card__image"
+          src="./src/assets/images/2023-kristine-breistol.jpg"
+          alt="imgage of Breistøl"
+        />
+        <h2 class="card__title">Kristine Breistøl</h2>
+        <p class="card__description">Born: 23.08.1993</p>
+        <p class="card__description">Nationality: Norwegian</p>
+        <p class="card__description">Jersey Number: 14</p>
+        <p class="card__description">Position: Defenders</p>
+        <p class="card__description">Club: Györi Audi ETO</p>
+      </div>
+
+      <div class="card">
+        <img
+          class="card__image"
+          src="./src/assets/images/2023-ingvild-bakkerud.jpg"
+          alt="image of Bakkerud"
+        />
+        <h2 class="card__title-longName">Ingvild Kristiansen Bakkerud</h2>
+        <p class="card__description">Born: 09.07.1995</p>
+        <p class="card__description">Nationality: Norwegian</p>
+        <p class="card__description">Jersey Number: 21</p>
+        <p class="card__description">Position: Defenders</p>
+        <p class="card__description">Club: Ikast Håndbold</p>
+      </div>
+
+      <div class="card">
+        <img
+          class="card__image"
+          src="./src/assets/images/2023-henny-ella-reistad.jpg"
+          alt="image of Reistad"
+        />
+        <h2 class="card__title">Henny Ella Reistad</h2>
+        <p class="card__description">Born: 09.02.1999</p>
+        <p class="card__description">Nationality: Norwegian</p>
+        <p class="card__description">Jersey Number: 25</p>
+        <p class="card__description">Position: Defenders</p>
+        <p class="card__description">Club: Team Esbjerg</p>
+      </div>
+
+      <div class="card">
+        <img
+          class="card__image"
+          src="./src/assets/images/2023-thale-rushfeldt-deila.jpg"
+          alt="image of Deila"
+        />
+        <h2 class="card__title">Thale Rushfeldt Deila</h2>
+        <p class="card__description">Born: 15.01.2000</p>
+        <p class="card__description">Nationality: Norwegian</p>
+        <p class="card__description">Jersey Number: 33</p>
+        <p class="card__description">Position: Defenders</p>
+        <p class="card__description">Club: Odense Håndbold</p>
+      </div>
+
+      <div class="card">
+        <img
+          class="card__image"
+          src="./src/assets/images/2023-camilla-herrem.jpg"
+          alt="image of Herrem"
+        />
+        <h2 class="card__title">Camilla Herrem</h2>
+        <p class="card__description">Born: 08.10.1986</p>
+        <p class="card__description">Nationality: Norwegian</p>
+        <p class="card__description">Jersey Number: 23</p>
+        <p class="card__description">Position: Defenders</p>
+        <p class="card__description">Club: Sola HK</p>
+      </div>
+
+      <div class="card">
+        <img
+          class="card__image"
+          src="./src/assets/images/2023-sanna-solberg-isaksen.jpg"
+          alt="image of Solberg-Isaksen"
+        />
+        <h2 class="card__title-longName">Sanna Charlotte Solberg-Isaksen</h2>
+        <p class="card__description">Born: 16.06.1990</p>
+        <p class="card__description">Nationality: Norwegian</p>
+        <p class="card__description">Jersey Number: 24</p>
+        <p class="card__description">Position: Winger</p>
+        <p class="card__description">Club: Team Esbjerg</p>
+      </div>
+
+      <div class="card">
+        <img
+          class="card__image"
+          src="./src/assets/images/2023-vilde-mortensen-ingstad.jpg"
+          alt="image of Ingstad"
+        />
+        <h2 class="card__title">Vilde Mortensen Ingstad</h2>
+        <p class="card__description">Born: 18.12.1994</p>
+        <p class="card__description">Nationality: Norwegian</p>
+        <p class="card__description">Jersey Number: 15</p>
+        <p class="card__description">Position:Line player</p>
+        <p class="card__description">Club:CSM Bucuresti</p>
+      </div>
+
+      <div class="card">
+        <img
+          class="card__image"
+          src="./src/assets/images/2023-kari-brattset-dale.jpg"
+          alt="image of Dale"
+        />
+        <h2 class="card__title">Kari Brattset Dale</h2>
+        <p class="card__description">Born: 15.02.1991</p>
+        <p class="card__description">Nationality: Norwegian</p>
+        <p class="card__description">Jersey Number: 13</p>
+        <p class="card__description">Position: Line player</p>
+        <p class="card__description">Club:Györi Audi ETO KC</p>
+      </div>
+
+      <div class="card">
+        <img
+          class="card__image"
+          src="./src/assets/images/2023-maren-aardahl.jpg"
+          alt="image of Aardahl"
+        />
+        <h2 class="card__title">Maren Nyland Aardahl</h2>
+        <p class="card__description">Born: 02.03.1994</p>
+        <p class="card__description">Nationality: Norwegian</p>
+        <p class="card__description">Jersey Number: 6</p>
+        <p class="card__description">Position: Line player</p>
+        <p class="card__description">Club: Odense Håndbold</p>
+      </div>
     </main>
 
     <footer>
-        <div class="footer__container">
-            <section class="footer__address">
-            <h3>The Norwegian Handball Association</h3>
-            <p>Visiting address</p>
-            <p>Sognsveien 75 A (4. etg. Ullevaal Stadion)</p>
-            <p>0855 OSLO</p>
-            <p>Org.nummer: 969 989 336 MVA</p>
-            <p>Fakturaadresse <a href="#">969989336@autoinvoice.no</a></p>
-            <p>E-post: <a href="mailto:">click here</a></p>
-            <p>Tlf: 970 02520 kl. 9-15</p>
+      <div class="section-wraper">
+        <section class="handball-association">
+          <h3 class="handball-association__title">
+            The Norwegian Handball Association
+          </h3>
+          <p class="handball-association__details">
+            Sognsveien 75 A (4. etg. Ullevaal Stadion)
+          </p>
+          <p class="handball-association__details">0855 OSLO</p>
+          <p class="handball-association__details">
+            Org.nummer: 969 989 336 MVA
+          </p>
+          <p class="handball-association__details">
+            Fakturaadresse: <a href="#">969989336@autoinvoice.no</a>
+          </p>
+          <p class="handball-association__details">
+            E-post: <a href="mailto:">click here</a>
+          </p>
+          <p class="handball-association__details">Tlf: 970 02520 kl. 9-15</p>
         </section>
 
-        <section class="footer__post-address">
-            <h3>Postaddress</h3>
-            <p>Norges Håndballforbund</p>
-            <p>Postboks 5000</p>
-            <p>0840  OSLO</p>
-            <a href="#">sign up for the newsletter</a>
-            <a href="#">About cookies</a>
+        <section class="postaddress">
+          <h3 class="postaddress__tilte">Postaddress</h3>
+          <p class="postaddress__details">Norges Håndballforbund</p>
+          <p class="postaddress__details">Postboks 5000</p>
+          <p class="postaddress__details">0840 OSLO</p>
+          <a class="postaddress__link" href="#">sign up for the newsletter</a>
+          <a class="postaddress__link" href="#">About cookies</a>
         </section>
 
-        <section class="footer__social-media-icons">
-            <a href="#"><img src="./src/assets/icons/facebook_icon.png" alt="facebook icon"></a>
-            <a href="#"><img src="./src/assets/icons/youtube_icon.png" alt="youtube icon"></a>
-            <a href="#"><img src="./src/assets/icons/twitter_bird_icon.png" alt="twitter icon"></a>
-            <a href="#"><img src="./src/assets/icons/instagram_icon.png" alt="instagram icon"></a>
+        <section class="social-media">
+          <a
+            class="social-media__icon-link social-media-icon-link--facebook"
+            href="#"
+            ><img
+              src="./src/assets/icons/facebook_icon.png"
+              alt="facebook icon"
+              class="social-media__icon"
+          /></a>
+          <a
+            class="social-media__icon-link social-media-icon.link--youtube"
+            href="#"
+            ><img
+              src="./src/assets/icons/youtube_icon.png"
+              alt="youtube icon"
+              class="social-media__icon"
+          /></a>
+          <a
+            class="social-media__icon-link social-media-icon-link--twitter"
+            href="#"
+            ><img
+              src="./src/assets/icons/twitter_bird_icon.png"
+              alt="twitter icon"
+              class="social-media__icon"
+          /></a>
+          <a
+            class="social-media__icon-link social-media-icon-link--instagram"
+            href="#"
+            ><img
+              src="./src/assets/icons/instagram_icon.png"
+              alt="instagram icon"
+              class="social-media__icon"
+          /></a>
         </section>
-        </div>
-        <section class="footer__copyright">
-            <p>&copy; 2015 - Norges Håndballforbund - (01)</p>
-            <p>All content is protected in accordance with the Act on copyright for intellectual property (the Copyright Act). The content may not be used commercially without the consent of the Norwegian Handball Association.</p>
-        </section>
+      </div>
+
+      <section class="copyright">
+        <p class="copyright__NHA">
+          &copy; 2015 - Norges Håndballforbund - (01)
+        </p>
+        <p class="copyright__description">
+          All content is protected in accordance with the Act on copyright for
+          intellectual property (the Copyright Act). The content may not be used
+          commercially without the consent of the Norwegian Handball
+          Association.
+        </p>
+      </section>
     </footer>
-    
-</body>
+  </body>
 </html>

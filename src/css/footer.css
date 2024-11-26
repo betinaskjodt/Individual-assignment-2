@@ -1,91 +1,115 @@
 footer {
-    font-family: var(--regular-font-family);
-    color: var(--primary-color);
-    border-top: 2px solid var(--third-color);
-    padding-top: var(--sizing-medium);
+  font-family: var(--regular-font-family);
+  color: var(--third-color);
+  border-top: 2px solid var(--third-color);
+  padding: var(--sizing-medium);
 }
 
-.footer__container {
-    display: flex;
-    justify-content: center;
-    gap: var(--sizing-x-large);
+.section-wraper {
+  display: flex;
+  justify-content: center;
+  gap: var(--sizing-x-large);
 }
 
-.footer__address {
-    line-height: 1.6;
+.handball-association,
+.postaddress {
+  line-height: 2;
 }
 
-.footer__address a {
-    color: var(--primary-color);
+.handball-association a {
+  color: var(--third-color);
 }
 
-.footer__post-address {
-    line-height: 2;
+.postaddress a {
+  color: var(--third-color);
+  display: block;
 }
 
-.footer__post-address a{
-    color: var(--primary-color);
+.social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-.footer__social-media-icons {
+.copyright {
+  text-align: center;
+  padding: var(--sizing-medium) var(--sizing-x-large);
+  color: var(--third-color);
+}
+
+/* media queries, ajusting for smaller screens. goin from desktop first. */
+@media screen and (max-width: 960px) {
+  .section-wraper {
+    gap: var(--sizing-medium);
+  }
+
+  .handball-association {
+    padding-left: 1rem;
+  }
+
+  .postaddress {
+    padding-left: 1rem;
+  }
+  .social-media {
+    padding-left: 1rem;
+  }
+
+  .copyright {
+    padding: var(--sizing-medium) 0;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .section-wraper {
+    gap: var(--sizing-medium);
+  }
+
+  .handball-association {
+    padding-left: 1rem;
+  }
+
+  .postaddress {
+    padding-left: 1rem;
+  }
+  .social-media {
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .section-wraper {
     display: flex;
     flex-direction: column;
-    gap: var(--sizing-x-small);
+    align-items: center;
+    gap: var(--sizing-medium);
+  }
+
+  .handball-association {
+    padding-left: 0;
+  }
+
+  .postaddress {
+    padding-left: 0;
+    padding-right: 8.5rem;
+  }
+
+  .social-media {
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--sizing-x-large);
+  }
 }
 
-.footer__copyright{
-    text-align: center;
-    padding: var(--sizing-small);
-    margin-bottom: var(--sizing-medium);
-    color: var(--third-color);
-}
-
-@media screen and (max-width: 960px){
-    .footer__container {
-        gap: var(--sizing-medium);
-}
-
-    .footer__address {
-        border-left: 1px solid var(--third-color);
-        padding-left: 1rem;
-}
-
-    .footer__post-address {
-        border-left: 1px solid var(--third-color);
-        padding-left: 1rem;
-}
-    .footer__social-media-icons {
-        border-left: 1px solid var(--third-color);
-        padding-left: 1rem;
-
-        padding-right: 1rem;
-}
-}
-
-@media screen and (max-width: 700px) {
-    .footer__container {
-        flex-direction: column;
-        align-items: center;
-}
-
-    .footer__address {
-        border: none
-    }
-
-    .footer__post-address {
-        border: none;
-        padding-right: 140px;
-    }
-
-    .footer__post-address a {
-        display: block;
-    }
-
-    .footer__social-media-icons {
-        border: none;
-        flex-direction: row;
-        justify-content: center;
-        gap: 2rem;
-        
-    }
+@media screen and (max-width: 441px) {
+  footer {
+    padding: var(--sizing-medium) var(--sizing-x-small);
+  }
+  .postaddress {
+    padding-right: 8rem;
+  }
+  .social-media {
+    gap: var(--sizing-medium);
+  }
 }

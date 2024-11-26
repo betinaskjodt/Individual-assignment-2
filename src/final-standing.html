@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/final-standing.css">
+    <title>Individual Assignment 2. bonus</title>
+</head>
+<body>
+    <header>
+        <div class="header__logo-searchbar">
+            <figure class="header__hna-logo">
+                <a href="#"><img class="header__logo" src="./assets/images/logonhf.png" alt="hna logo"></a>
+            </figure>
+                
+            <nav class="header__navbar-small-screen">
+                <div class="header_menu-icon-small-sreen">
+                    <figure class="menu-icon-small-screen">
+                        <img src="./assets/icons/menu_icon.svg" alt="menu icon">    
+                    </figure>
+                    
+                    <ul class="navlist-small-screen">
+                        <li><input class="header__searchbar-list" type="search" id="searchbar-list" name="searchbar-list" placeholder="search"></li>
+                        <li><a href="#"></a>Regions</li>
+                        <li><a href="#"></a>Aboute Us</li>
+                        <li><a href="#"></a>Combat</li>
+                        <li><a href="#"></a>Development</li>
+                        <li><a href="#"></a>Practical Information</li>
+                        <li><a href="#"></a>Tickets</li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <form action="" class="header__searchbar-container">
+                <button class="header__search-icon">
+                     <img src="./assets/icons/search_icon.svg" alt="search icon">
+                </button>
+
+                <label for="main-searchbar"></label>
+                <input class="header__searchbar" type="search" id="main-searchbar" name="main-searchbar" placeholder="search">
+            </form>
+        </div>
+        
+        <h1>Norwegian Handball Association</h1>
+
+        <nav>
+            <ul class="header__nav-list">
+                <li class="header__nav-items"><a href="#">Regions</a></li>
+                <li class="header__nav-items"><a href="#">Aboute Us</a></li>
+                <li class="header__nav-items"><a href="#">Combat Activities</a></li>
+                <li class="header__nav-items"><a href="#">Development</a></li>
+                <li class="header__nav-items"><a href="#">Practical Information</a></li>
+                <li class="header__nav-items"><a href="#">Tickets</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="statistic-options">
+            <h2>National match statistics</h2>
+            <form>
+                <div class="team">
+                   <label for="">Team</label>
+                    <select name="team" id="team-norway">
+                        <option value="team">select team</option>
+                        <option value="LG">national team boys(LG)</option>
+                        <option value="LMS">national team men senior(LMS)</option>
+                        <option value="LKJ">national women's junior team (LKJ)</option>
+                        <option value="LSK">senior women's national team(LSK)</option>
+                        <option value="LSU">women's youth national team (LSU)</option>    
+                    </select> 
+                </div>
+                
+                <div class="Opponent">
+                   <label for="">Opponent</label>
+                    <select name="Opponent" id="Opponent-national">
+                        <option value="all-Opponent">All</option>
+                        <option value="sweden">Sweden</option>
+                        <option value="denmark">Denmark</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="canada">Canadption>
+                        <option value="finnland">Finnland</option>
+                        <option value="estonia">Estonia</option>
+                        <option value="france">France</option>
+                        <option value="germany">Germany</option>
+                        <option value="slovenia">Slovenia</option>
+                    </select> 
+                </div>
+                
+                <div class="players">
+
+                    <label for="">Player</label>    
+                    <select name="players" id="players-name">
+                        <option value="all-players">select all</option>
+                        <option value="">Abdulla, Tina</option>
+                        <option value="">Albert, Gerd-Elin</option>
+                        <option value="">Alstad, Ida</option>
+                        <option value="">Blanco, Isabell</option>
+                        <option value="">Berg, Sara</option>
+                        <option value="">Enkerud, Tina</option>
+                        <option value="">Flo, Liv</option>
+                    </select>  
+                </div>
+                
+            </form>
+        </section>
+
+        <table class="table-matches">
+            <thead>
+                <tr class="">
+                    <th scope="col">Nr</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Hometeam</th>
+                    <th scope="col">Awayteam</th>
+                    <th scope="col">H - A</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" class="">1</th>
+                    <td>10.08.2024</td>
+                    <td>Norway</td>
+                    <td>France</td>
+                    <td>29 - 21</td>
+                </tr>
+
+                <tr>
+                    <th scope="row" class="">2</th>
+                    <td>08.08.2024</td>
+                    <td>Norway</td>
+                    <td>Denmark</td>
+                    <td>25 - 21</td>
+                </tr>
+
+                <tr>
+                    <th scope="row" class="">3</th>
+                    <td>06.08.2024</td>
+                    <td>Norway</td>
+                    <td>Brasil</td>
+                    <td>32 - 15</td>
+                </tr>
+
+                <tr>
+                    <th scope="row" class="">4</th>
+                    <td>03.08.2024</td>
+                    <td>Norway</td>
+                    <td>Germany</td>
+                    <td>30 - 18</td>
+                </tr>
+
+                <tr>
+                    <th scope="row" class="">5</th>
+                    <td>01.08.2024</td>
+                    <td>Slovenia</td>
+                    <td>Norway</td>
+                    <td>22 - 29</td>
+                </tr>
+
+                <tr>
+                    <th scope="row" class="">6</th>
+                    <td>30.07.2024</td>
+                    <td>Norway</td>
+                    <td>South-Korea</td>
+                    <td>26 - 20</td>
+                </tr>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+
+    </main>
+
+    <footer>
+        <div class="footer__container">
+            <section class="footer__address">
+            <h3>The Norwegian Handball Association</h3>
+            <p>Visiting address</p>
+            <p>Sognsveien 75 A (4. etg. Ullevaal Stadion)</p>
+            <p>0855 OSLO</p>
+            <p>Org.nummer: 969 989 336 MVA</p>
+            <p>Fakturaadresse <a href="#">969989336@autoinvoice.no</a></p>
+            <p>E-post: <a href="mailto:">click here</a></p>
+            <p>Tlf: 970 02520 kl. 9-15</p>
+        </section>
+
+        <section class="footer__post-address">
+            <h3>Postaddress</h3>
+            <p>Norges Håndballforbund</p>
+            <p>Postboks 5000</p>
+            <p>0840  OSLO</p>
+            <a href="#">sign up for the newsletter</a>
+            <a href="#">About cookies</a>
+        </section>
+
+        <section class="footer__social-media-icons">
+            <a href="#"><img src="./assets/icons/facebook_icon.png" alt="facebook icon"></a>
+            <a href="#"><img src="./assets/icons/youtube_icon.png" alt="youtube icon"></a>
+            <a href="#"><img src="./assets/icons/twitter_bird_icon.png" alt="twitter icon"></a>
+            <a href="#"><img src="./assets/icons/instagram_icon.png" alt="instagram icon"></a>
+        </section>
+        </div>
+        <section class="footer__copyright">
+            <p>&copy; 2015 - Norges Håndballforbund - (01)</p>
+            <p>All content is protected in accordance with the Act on copyright for intellectual property (the Copyright Act). The content may not be used commercially without the consent of the Norwegian Handball Association.</p>
+        </section>
+    </footer>  
+</body>
+</html>

@@ -1,45 +1,27 @@
 :root {
-    --light-font-family: Rubik-Light;
-    --regular-font-family: Rubik-Regular;
-    --bold-font-family: Rubik-Bold;
-    --black-font-family: Rubik-Black;
-    --black-italic-font-family: Rubik-BlackItalic;
+  --light-font-family: Rubik-Light;
+  --regular-font-family: Rubik-Regular;
+  --bold-font-family: Rubik-Bold;
+  --black-font-family: Rubik-Black;
+  --black-italic-font-family: Rubik-BlackItalic;
 
-    --sizing-x-small:0.5rem;
-    --sizing-small: 1rem;
-    --sizing-medium: 2rem;
-    --sizing-large: 4rem;
-    --sizing-x-large: 6rem;
+  --sizing-x-small: 0.5rem;
+  --sizing-small: 1rem;
+  --sizing-medium: 2rem;
+  --sizing-large: 4rem;
+  --sizing-x-large: 6rem;
 
-    --pimray-background-color: #6096BA;
-    --secondary-background-color:#274C77 ;
+  --font-size-xsmall: 0.5rem;
+  --font-size-small: 1.2rem;
+  --font-size-medium: 1.5rem;
+  --font-size-large: 2rem;
+  --font-size-xlarge: 2.5rem;
 
-    --primary-color: #EDF2F4;
-    --secondary-color: #E7ECEF;
-    --third-color: #274C77;
-}
+  --pimray-background-color: #edf2f4;
+  --secondary-background-color: #274c77;
+  --third-background-color: #edf2f4;
 
-@font-face {
-    font-family: Rubik-Light;
-    src: url(../assets/font/Rubik-Light.ttf);
-}
-
-@font-face {
-    font-family: Rubik-Regular;
-    src: url(../assets/font/Rubik-Regular.ttf);
-}
-
-@font-face {
-    font-family: Rubik-Bold;
-    src: url(../assets/font/Rubik-Bold.ttf);
-}
-
-@font-face {
-    font-family: Rubik-Black;
-    src: url(../assets/font/Rubik-Black.ttf);
-}
-
-@font-face {
-    font-family: Rubik-BlackItalic;
-    src: url(../assets/font/Rubik-BlackItalic.ttf);
+  --primary-color: #edf2f4;
+  --secondary-color: #6096ba;
+  --third-color: #274c77;
 }
