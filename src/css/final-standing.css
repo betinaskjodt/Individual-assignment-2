@@ -1,52 +1,31 @@
 body {
-    width: 100%;
-    height: 100vh;
-    background-color: var(--pimray-background-color);
-    font-family: var(--regular-font-family);
+  width: 100%;
+  height: 100vh;
+  background-color: var(--pimray-background-color);
+  font-family: var(--regular-font-family);
 }
 
 .statistic-options {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: var(--sizing-medium);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sizing-medium);
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: var(--sizing-small);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--sizing-small);
 }
 
 label {
-    background-color: var(--secondary-background-color);
-    color: var(--secondary-color);
-    padding: var(--sizing-x-small);
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-color);
+  padding: var(--sizing-x-small);
 }
 
-.team label, .players label{
-    padding: 0 var(--sizing-x-small);
-    
+.team label,
+.players label {
+  padding: 0 var(--sizing-x-small);
 }
-
-
-
-/* .table-all th, .table-all td{
-    border: 1px solid black;
-    padding: 8px;
-}
-  
-.table-all {
-      border-collapse: collapse;
-}
-  
-.tag { 
-      background-color: #ACC8E5;
-      font-size: 1.2rem;
-}
-  
-.title-table {
-      background-color: aqua;
-      font-size: 1.5rem;
-} */
