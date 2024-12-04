@@ -36,3 +36,9 @@ this project is licensed under the MIT License - see the LICENSE fil for deatils
 ## Contact
 
 If you have any questions or suggestions, feel free to reach out to me at [betina_horthe@hotmail.com].
+
+## Sources
+
+Dianat, R.(2024). Flexbox - demonstration.pdf. Fagskolen Kristiania. https://kristiania.instructure.com/courses/12270/files/1455353?module_item_id=502875
+
+Dianat, R.(september 2, 2024). CSS - Grid.pdf. Fagskolen Kristiania. https://kristiania.instructure.com/courses/12270/files/1455455?module_item_id=502892
