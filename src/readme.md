@@ -37,6 +37,10 @@ this project is licensed under the MIT License - see the LICENSE fil for deatils
 
 If you have any questions or suggestions, feel free to reach out to me at [betina_horthe@hotmail.com].
 
+## Netlify
+
+https://675071857b60bd1c2ffd82fc--superlative-bienenstitch-a1cdad.netlify.app/
+
 ## Sources
 
 Dianat, R.(2024). Flexbox - demonstration.pdf. Fagskolen Kristiania. https://kristiania.instructure.com/courses/12270/files/1455353?module_item_id=502875
